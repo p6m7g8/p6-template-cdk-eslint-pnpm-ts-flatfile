@@ -15,7 +15,7 @@ const app = new cdk.App()
 
 // Instantiate the stack
 // eslint-disable-next-line no-new
-new MyStack(app, 'p6-ldar-cdk-pnp-brand-image', { env: theEnv })
+new MyStack(app, 'p6-template-cdk-eslint-pnpm-ts-flatfile', { env: theEnv })
 
 // Synthesize the stack
 app.synth()
