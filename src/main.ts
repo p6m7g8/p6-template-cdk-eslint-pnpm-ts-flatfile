@@ -1,6 +1,6 @@
 import type { Construct } from 'constructs'
+import * as process from 'node:process'
 import * as cdk from 'aws-cdk-lib'
-import * as process from 'node:proces'
 
 export class MyStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: cdk.StackProps = {}) {
