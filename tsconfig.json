@@ -30,7 +30,6 @@
     "skipLibCheck": true
   },
   "include": [
-    "bin/deploy.ts",
     "jest.config.ts",
     "src/**/*.ts",
     "test/**/*.ts",
