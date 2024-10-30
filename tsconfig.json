@@ -30,14 +30,12 @@
     "skipLibCheck": true
   },
   "include": [
-    "bin/deploy.ts",
+    "src/main.ts",
     "jest.config.ts",
-    "src/**/*.ts",
     "test/**/*.ts",
   ],
   "exclude": [
     "cdk.out",
-    "dist",
     "node_modules"
   ],
   "outDir": "lib",
