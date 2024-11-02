@@ -12,6 +12,9 @@
     "test": "node --trace-deprecation ./node_modules/jest/bin/jest.js  --config jest.config.js --coverage",
     "test:watch": "node --trace-deprecation ./node_modules/jest/bin/jest.js  --config jest.config.js --watch --coverage"
   },
+  "engines": {
+    "node": ">= 22.10.0"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^3.8.0",
     "@types/jest": "^29.5.14",
