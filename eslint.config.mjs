@@ -5,6 +5,7 @@ export default antfu({
     '.github',
     '.mergify.yml',
     '.pnpm-store/',
+    '.vscode/extensions.json',
     '.vscode/settings.json',
     '*.md',
     'cdk.json',
